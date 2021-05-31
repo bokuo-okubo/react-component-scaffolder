@@ -1,0 +1,10 @@
+import React from 'react'
+
+import { {{ComponentName}} as Component } from './index'
+import { Meta } from '@storybook/react/types-6-0'
+
+export const _Default = () => <Component />
+
+export default {
+  title: '{{StoryPage}}/{{ComponentName}}'
+} as Meta

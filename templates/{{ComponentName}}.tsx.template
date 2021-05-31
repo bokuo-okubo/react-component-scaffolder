@@ -1,0 +1,21 @@
+import * as React from 'react'
+import {
+  chakra,
+  Box,
+  BoxProps,
+  Flex,
+  FlexProps,
+  Text
+  //
+} from '@chakra-ui/react'
+export type {{ComponentName}}Props = {
+  //
+}
+
+export const {{ComponentName}}: React.FC<{{ComponentName}}Props> = () => {
+  return (
+    <div>
+      {{ComponentName}}
+    </div>
+  )
+}
