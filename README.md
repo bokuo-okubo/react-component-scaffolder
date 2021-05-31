@@ -14,3 +14,19 @@ Options:
 
 Missing required arguments: componentType, componentName
 ```
+
+
+## react project の rootに
+
+`.scaffold.config.js`
+```js
+module.exports = {
+  componentDir: {
+    atoms: "<rootdir>/src/components/universal/1-atoms",
+    molecules: "<rootdir>/src/components/universal/2-molecules",
+    organisms: "<rootdir>/src/components/universal/3-organisms",
+  }
+}
+```
+
+みたいなの置いてください。(雑
